@@ -8,9 +8,9 @@ app.get("/api/users", (req,res)=> {
   console.log('users')
   return res.send('hello users')
 })
-app.get("/api/products", (req,res)=> {
-  console.log('products')
-  return res.send('hello products')
-})
+// app.get("/api/products", (req,res)=> {
+//   console.log('products')
+//   return res.send('hello products')
+// })
 
 module.exports = app;
