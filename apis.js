@@ -15,4 +15,9 @@ route.get('/welcome', async(req,res)=>{
   return res.status(200).send('Welcome from Server.')
 })
 
+route.get('/working', async(req,res)=>{
+  console.log('working')
+  return res.status(200).send('CICD working from Server.')
+})
+
 module.exports = route
