@@ -6,6 +6,7 @@ route.get('/hello', async (req,res)=>{
 })
 
 route.get('/bye', async(req,res)=> {
+  console.log('Bye call')
   return res.status(200).send('Bye from Server.')
 })
 
