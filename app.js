@@ -4,7 +4,7 @@ const app = express();
 
 app.use(cors())
 // app.use('/api',require('./apis'))
-app.get("/api/users", (req,res)=> {
+app.get("/api", (req,res)=> {
   console.log('users')
   return res.send('hello users')
 })
