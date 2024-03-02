@@ -9,4 +9,8 @@ app.get('/api', async (req,res)=>{
   return res.status(200).send('Hello from server.')
 })
 
+app.get('/api/bye', async(req,res)=> {
+  return res.status(200).send('Bye from Server.')
+})
+
 module.exports = app;
