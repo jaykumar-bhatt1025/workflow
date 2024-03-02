@@ -10,4 +10,9 @@ route.get('/bye', async(req,res)=> {
   return res.status(200).send('Bye from Server.')
 })
 
+route.get('/welcome', async(req,res)=>{
+  console.log('welcome')
+  return res.status(200).send('Welcome from Server.')
+})
+
 module.exports = route
